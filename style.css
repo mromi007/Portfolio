@@ -64,7 +64,7 @@ body{
     width: 100;
     justify-content: space-between;
     height: 100vh;
-    background: url(Resources/mypic\ 1.png) no-repeat;
+    background: url(mypic\ 1.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
