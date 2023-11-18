@@ -38,7 +38,6 @@ body{
     font-size: 35px;
     color: #9a55e0;
     text-decoration: none;
-    padding-left:  ;
     font-family: 'Barriecito', cursive;
     font-weight: bolder;
 }
@@ -89,7 +88,7 @@ body{
 }
 @media (max-width:500px) {
     .home{
-        width: 80vh;
+        width: 95vh;
         height: 60vh;
         background-size: 100%;
         background-position: center;
@@ -137,7 +136,7 @@ body{
     width: 50px;
     height: 50px;
     background: transparent;
-    border: 2px solid#9a55e0);
+    border: 2px solid#9a55e0;
     border-radius: 50%;
     color: #9a55e0 ;
 }
@@ -161,6 +160,7 @@ body{
     font-weight: 600;
 }
 
+
 .btn-box:hover{
     box-shadow: 0 0 5px #9a55e0,
     0 0 25px #9a55e0, 0 0 50px #9a55e0,
@@ -173,6 +173,41 @@ body{
     align-items: center;
     gap: 1.5rem;
 }
+@media (max-width:500px) {
+    .about{
+        display:flex;
+        align-items: center;
+        gap: 1.5rem;
+        width: 95vh;
+    }
+
+    .about-text h2{
+        padding-left: 200px;
+    }
+    .about-text h4{
+        text-align: center;
+    }
+    .about-text p{
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .about-img img{
+        display: none;
+    }
+
+    .btn-box{
+        text-align: center;
+        margin-left: 42vh;        
+    }
+
+    .hh2{
+        padding-left: 200px;
+        width: 90vh;
+    }
+}
+
 
 .about-img img{
     padding-bottom: 10%;
@@ -213,6 +248,12 @@ body{
     line-height: 1.4;
     margin-bottom: 4remp;
 }
+@media (max-width:500px) {
+    .sec1{
+       width: 95vh;
+    }
+}
+
 
 .sub-title{
     text-align: center;
@@ -234,6 +275,12 @@ body{
     grid-gap: 40px;
     margin-top: 50px;
 }
+@media (max-width:500px) {
+    .services-list{
+       display: flex;
+       }
+}
+
 
 .services-list div{
     background-color: transparent;
@@ -293,12 +340,31 @@ section{
     flex-wrap: wrap;
 }
 
+@media (max-width:500px) {
+    .sec2{
+       width: 95vh;
+       padding-left: 170px;
+    }
+    .container1{
+        margin-bottom: 100px;
+    }
+    .bbb{
+        padding-left: 180px;
+    }
+}
+
+@media (max-width:500px) {
+    .sub-title{
+       width: 80vh;
+    }
+}
 
 .container1{
     width: 600px;
     height: 500px;
     padding: 10px 90px;
     margin-left: 120px;
+    align-content: center;
 }
 
 .heading1{
@@ -472,6 +538,11 @@ section{
     padding-left: 30px;
     margin: 130px;
 }
+@media (max-width:500px) {
+    .Contact{
+       width: 80vh;
+    }
+}
 .contact-text h2{
     font-size: 70px;
     line-height: 1;
@@ -584,7 +655,17 @@ section{
 .res{
     padding-left:650px ;
     padding-bottom: 10px;
+    align-items: center;
 }
+@media (max-width:500px){
+    res{
+        padding-left:px;
+        padding-bottom: 10px;
+        width: 90vh;
+    }
+}
+
+
 .resume{
     display: inline-block;
     padding:12px 28px ;
