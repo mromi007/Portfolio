@@ -11,6 +11,13 @@ body{
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
+@media (max-width:900px) {
+    .body{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    }
+}
+
 
 .header{
     position: fixed;
@@ -54,6 +61,7 @@ body{
         color: #ffffff;
     }
 }
+
 .navbar a:hover{
     color:#ad8cd1;
     
@@ -68,21 +76,25 @@ body{
 
 
 .home {
-    position: relative;
-    width: 100;
+    position: ;
+    width: 500;
     justify-content: space-between;
     height: 100vh;
-    background: url(mypic\ 1.png) no-repeat;
+    background: url(Resources/mypic\ 1.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     padding: 70px 10px 0;
 }
-@media (min-width:900px) {
+@media (max-width:500px) {
     .home{
-        background-size: cover;
-    background-position: left;
+        width: 80vh;
+        height: 60vh;
+        background-size: 100%;
+        background-position: center;
+        padding: 0px 0px 0;
+        
     }
 }
 
@@ -90,6 +102,14 @@ body{
     max-width: 600px;
     padding-left: 75px;
 }
+@media (max-width:500px) {
+    .home-content {
+        max-width: 600px;
+        padding-left: 100px;
+    }
+}
+
+
 
 .home-content h3 {
     font-size: 32px;
@@ -272,6 +292,7 @@ section{
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .container1{
     width: 600px;
