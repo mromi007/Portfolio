@@ -118,6 +118,8 @@ body{
 }
 @media (max-width:500px) {
     .home-content h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
     width: 350px;
     }
 }
