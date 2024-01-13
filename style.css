@@ -104,7 +104,7 @@ body{
 @media (max-width:500px) {
     .home-content {
         max-width: 600px;
-        padding-left: 100px;
+        padding-left: 75px;
     }
 }
 
