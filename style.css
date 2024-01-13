@@ -11,11 +11,13 @@ body{
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
-@media (max-width:900px) {
+@media (max-width:500px) {
     .body{
         color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
         text-align: center;
+        width: 425px;    
+        width: 425px;
     }
 }
 
@@ -25,7 +27,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 10%;
+    padding: 10px 5%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -88,9 +90,8 @@ body{
 }
 @media (max-width:500px) {
     .home{
-        width: 100vh;
-        height: 60vh;
-        background-size: 100%;
+        width: 220%;
+        object-fit: cover;
         background-position: center;
         padding: 0px 0px 0;
         
@@ -112,7 +113,7 @@ body{
 
 .home-content h4 {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'Lora', serif;
 }
 @media (max-width:500px) {
@@ -133,15 +134,18 @@ body{
     font-size: 15px;
     margin-top: -20px;
     font-family: 'Lora', serif;
+    line-height: 1.5;
 }
 
 @media (max-width:500px) {
     .home-content p {
         margin: 0.5px;
-        width: 200px;
+        margin-bottom: 30px;
+        width: 450px;
         font-size: 15px;
-        margin-top: -20px;
+        margin-top: 0px;
         font-family: 'Lora', serif;
+        line-height: 1.5;
     }
 }
 
@@ -190,13 +194,21 @@ body{
     gap: 1.5rem;
 }
 @media (max-width:500px) {
+    .about-text{
+        align-items: center;
+        text-align: center;
+        width: 300vh;
+    }
     .about{
         display:flex;
         align-items: center;
         gap: 1.5rem;
-        width: 95vh;
+       
     }
-
+    .sub-title{
+        text-align: center;
+    }
+   
     .about-text h2{
         text-align: center;
     }
