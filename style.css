@@ -199,10 +199,11 @@ body{
     }
 
     .about-text h2{
-        padding-left: 200px;
+        text-align: center;
     }
     .about-text h4{
         text-align: center;
+
     }
     .about-text p{
         text-align: center;
