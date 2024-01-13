@@ -15,6 +15,8 @@ body{
     .body{
         color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
+        font-size: 18px;
+        line-height: 1.5;
     }
 }
 
@@ -75,7 +77,6 @@ body{
 
 
 .home {
-    position: ;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
@@ -104,17 +105,23 @@ body{
 @media (max-width:500px) {
     .home-content {
         max-width: 600px;
-        padding-left: 40px;
+        padding-left: 50px;
     }
 }
 
 
 
-.home-content h3 {
+.home-content h4 {
     font-size: 32px;
     font-weight: 700;
     font-family: 'Lora', serif;
 }
+@media (max-width:500px) {
+    .home-content h4 {
+    width: 350px;
+    }
+}
+
 
 .home-content h1 {
     font-size: 56px;
@@ -127,6 +134,16 @@ body{
     font-size: 15px;
     margin-top: -20px;
     font-family: 'Lora', serif;
+}
+
+@media (max-width:500px) {
+    .home-content p {
+        margin: 0.5px;
+        width: 350px;
+        font-size: 15px;
+        margin-top: -20px;
+        font-family: 'Lora', serif;
+    }
 }
 
 .home-sci a{
@@ -393,7 +410,7 @@ section{
     margin-bottom: 0;
 }
 
-..Technical-bars .bar .info{
+.Technical-bars .bar .info{
     margin-bottom: 5px;
 }
 
@@ -668,6 +685,8 @@ section{
         padding-left:px;
         padding-bottom: 10px;
         width: 90vh;
+        justify-content: center;
+        align-items: center;
     }
 }
 
