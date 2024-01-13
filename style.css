@@ -392,15 +392,12 @@ section{
 
 @media (max-width:500px) {
     .sec2{
-       width: 95vh;
-       padding-left: 70px;
+       width: 844px;
     }
     .container1{
         margin-bottom: 100px;
     }
-    .bbb{
-        padding-left: 180px;
-    }
+    
 }
 
 
@@ -585,11 +582,11 @@ section{
 }
 @media (max-width:500px) {
     .Contact{
-       width: 70vh;
+       width: 82vh;
        display: flex;
-       padding-left: 30px;
-       padding-right: 30px;
        text-align: center;
+       align-content: center;
+       justify-content: center;
     }
 }
 .contact-text h2{
@@ -697,20 +694,25 @@ section{
 }
 
 .bbb{
-    padding-top:150px;
+    width: 844px;
     
 }
 
 .res{
-    padding-left:650px ;
+    
     padding-bottom: 10px;
     align-items: center;
 }
 @media (max-width:500px){
-    res{
+    .resumepg{
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 844px;
+    }
+    .res{
         padding-left:px;
         padding-bottom: 10px;
-        width: 90vh;
         justify-content: center;
         align-items: center;
     }
