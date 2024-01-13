@@ -231,8 +231,7 @@ body{
     }
 
     .hh2{
-        padding-left: 200px;
-        width: 90vh;
+        width: 844px;
     }
 }
 
@@ -278,7 +277,9 @@ body{
 }
 @media (max-width:500px) {
     .sec1{
-       width: 95vh;
+       width: 775px;
+       margin-left: 30px;
+       margin-right: 30px;
     }
     .container{
     }
@@ -298,6 +299,12 @@ body{
 .container{
     padding: 90px;
 }
+@media (max-width:500px) {
+    .container{
+        padding: 0px;
+        align-content: center;
+    }
+}
 
 .services-list{
     display: grid;
@@ -308,7 +315,12 @@ body{
 @media (max-width:500px) {
     .services-list{
        display: flex;
+       align-content: center;
        }
+
+    .services-list div{
+        padding: 18px;
+    }   
 }
 
 
@@ -323,6 +335,14 @@ body{
     box-shadow: 1px 1px 20px #9e6bd1,
                 1px 1px 40px #9d70cb
 }
+@media (max-width:500px) {
+
+    .services-list div{
+        padding: 18px;
+    }   
+}
+
+
 
 .services-list div i{
     font-size: 50px;
